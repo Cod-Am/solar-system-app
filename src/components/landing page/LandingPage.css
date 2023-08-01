@@ -1,0 +1,68 @@
+.landingpage{
+    align-items: center;
+}
+.background{
+    width: 100%;
+    position: absolute;
+    margin: 0%;
+    z-index: 1;
+}
+.landing_entry{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-family: 'Gambetta';
+    font-size: 8rem;
+    margin: 0%;
+    position: relative;
+    z-index: 2;
+    /* left: 50%;
+    top: 50%;
+    
+    transform: translate(-50%, +100%); */
+
+    color: #209da8d8;
+    width: fit-content;
+    font-weight: 700;
+    transform: skew(0deg);
+    transition: 0.5s letter-spacing ease-in,0.7s color ease-in,0.6s text-shadow ease-in,0.5s transform ease-in;
+    text-shadow: none;
+    margin-left: auto;
+    margin-right: auto;
+    top: 8rem;
+    /* background-image: url('https://th.bing.com/th/id/R.804ae154ec944f0c6adf75d053e1e4f5?rik=pOCnx%2b7lqMU6dQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f5%2f5%2f1113372-gorgerous-cool-space-background-wallpapers-2880x1800-phone.jpg&ehk=iDdv1rf0FUnRBLeVQoCHTnbDKWpmK%2faURtu2WkTJt0E%3d&risl=&pid=ImgRaw&r=0');
+    background-clip: text;
+    color: transparent; */
+    /* transform: translate(-50%, -50%); */
+}
+.title:hover{
+    transform: skew(-10deg);
+    letter-spacing: 0.5rem;
+    color: rgb(174, 7, 116);
+    text-shadow: 0px 0px 0px rgb(232, 125, 161), 1px 1px 0px rgb(232, 125, 161), 2px 2px 0px rgb(232, 125, 161), 3px 3px 0px rgb(232, 125, 161), 4px 4px 0px rgb(232, 125, 161), 5px 5px 0px rgb(232, 125, 161);
+}
+.button{
+    position: relative;
+    color: white;
+    z-index: 2;
+    background-color: black;
+    top: 150px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    letter-spacing: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(174, 7, 116);
+}
+.button:hover{
+    transform: skew(-14deg);
+    box-shadow: 0px 0px 0px rgb(232, 125, 161), 1px 1px 0px rgb(232, 125, 161), 2px 2px 0px rgb(232, 125, 161), 3px 3px 0px rgb(232, 125, 161), 4px 4px 0px rgb(232, 125, 161), 5px 5px 0px rgb(232, 125, 161);
+    /* transform: skewY(-5deg); */
+}
